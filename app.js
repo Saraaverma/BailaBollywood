@@ -328,6 +328,8 @@ app.listen(port, err => {
     throw err;
   }
   console.log(`App is ready on port :${port}`);
+  console.log("123");
+  
   //console.log(path.join(__dirname));
   
 });
